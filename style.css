@@ -1,0 +1,341 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',;
+    }
+
+
+
+
+.h1 {
+    
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    
+    
+}
+
+.parrafo-inicial {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo-inicio{
+    padding-left: 11%;
+    padding-right: 9%;
+    font-size: 25px;
+    
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-areas: 
+    'grid1 grid2 grid3'
+    'grid4 grid5 gird6'
+    ;
+    margin-left: 9%;
+}
+
+.grid1 {
+    grid-area: grid1;
+    padding: 5%;
+    margin-bottom: 5%;
+    
+}
+.grid2 {
+    grid-area: grid2;
+    padding: 5%;
+}
+.grid3 {
+    grid-area: grid3;
+    padding: 5%;
+}
+
+.imagen-grid{
+    width: 70%;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.parrafogrid{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 30%;
+    padding-top: 3%;
+
+}
+
+
+
+.boton{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 22%;
+    margin-top: 3%;
+    background-color:rgb(44, 44, 44);
+    border: #C43B5C;
+    color:aliceblue
+    
+    
+}
+
+
+
+.footer{
+    background-color: #C43B5C;
+
+}
+
+.texto-footer{
+    color: aliceblue;
+}
+
+
+
+/* PLANES CSS */
+.encabezado-planes{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.grid-planes{
+   font-size: 22px;
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    grid-template-areas: 
+    'grid1 grid2'
+    'grid3 grid4'
+    'grid5 gird6'
+    ;
+}
+
+.grid-planes-1 {
+    grid-area: grid1;
+    width: 80%;
+   
+    margin-left: 35%;
+    margin-top: 10%;
+    
+}
+
+.grid-planes-2 {
+    grid-area: grid2;
+    margin-top: 20%;
+    padding-right: 18%;
+    
+
+     
+
+}
+
+.grid-planes-3 {
+    grid-area: grid4;
+    margin-top: 20%;
+    padding-right: 18%;
+}
+
+.grid-planes-4 {
+    grid-area: grid3;
+    width: 80%;
+    
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.grid-planes-5 {
+    grid-area: grid5;
+    width: 80%;
+  
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.grid-planes-6 {
+    grid-area: grid6;
+    margin-top: 20%;
+    padding-right: 18%;
+    margin-bottom: 3%;
+}
+
+
+/* mobile 468px */
+@media screen and (max-width: 468px) {
+
+    .boton{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        margin-right: 30%;
+        margin-left: 2%;
+        margin-top: 3%;
+        background-color:rgb(44, 44, 44);
+        border: #C43B5C;
+        font-size: 10px;
+        
+    }
+
+    .parrafo-inicio{
+        padding-left: 11%;
+        padding-right: 9%;
+        font-size: 14px;
+    }
+    .texto-footer{
+        color: aliceblue;
+        font-size: 12px;
+    }
+    
+    .grid-planes{
+        font-size: 12px;
+         display: grid;
+         grid-template-columns: repeat(2,3fr);
+         grid-template-areas: 
+         'grid1 grid2'
+         'grid3 grid4'
+         'grid5 gird6'
+         ;
+     }
+
+     .grid-planes-1 {
+        grid-area: grid1;
+        width: 80%;
+       
+        margin-left: 30%;
+        margin-top: 17%;
+        
+    }
+    
+    .grid-planes-2 {
+        grid-area: grid2;
+        margin-top: 15%;
+        padding-right: 10%;
+        
+    
+         
+    
+    }
+    
+    .grid-planes-3 {
+        grid-area: grid4;
+        margin-top: 15%;
+        padding-right: 10%;
+    }
+    
+    .grid-planes-4 {
+        grid-area: grid3;
+        width: 80%;
+        
+        margin-left: 30%;
+        margin-top: 17%;
+    }
+    
+    .grid-planes-5 {
+        grid-area: grid5;
+        width: 80%;
+      
+        margin-left: 30%;
+        margin-top: 17%;
+    }
+    
+    .grid-planes-6 {
+        grid-area: grid6;
+        margin-top: 15%;
+        padding-right: 10%;
+    }
+
+}
+
+/* medium 468px */
+@media screen and (min-width: 469px) and (max-width: 1275px) {
+
+    .boton{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        margin-right: 35%;
+        margin-left: 6%;
+        margin-top: 3%;
+        background-color:rgb(44, 44, 44);
+        border: #C43B5C;
+        font-size: 14px;
+        
+    }
+
+   
+    .parrafo-inicio{
+        padding-left: 11%;
+        padding-right: 9%;
+        font-size: 16px;
+    }
+
+    .grid-planes{
+        font-size: 14px;
+         display: grid;
+         grid-template-columns: repeat(2,3fr);
+         grid-template-areas: 
+         'grid1 grid2'
+         'grid3 grid4'
+         'grid5 gird6'
+         ;
+     }
+     .grid-planes-1 {
+        grid-area: grid1;
+        width: 80%;
+       
+        margin-left: 35%;
+        margin-top: 10%;
+        
+    }
+    
+    .grid-planes-2 {
+        grid-area: grid2;
+        margin-top: 15%;
+        padding-right: 10%;
+        
+    
+         
+    
+    }
+    
+    .grid-planes-3 {
+        grid-area: grid4;
+        margin-top: 15%;
+        padding-right: 10%;
+    }
+    
+    .grid-planes-4 {
+        grid-area: grid3;
+        width: 80%;
+        
+        margin-left: 35%;
+        margin-top: 10%;
+    }
+    
+    .grid-planes-5 {
+        grid-area: grid5;
+        width: 80%;
+      
+        margin-left: 35%;
+        margin-top: 10%;
+    }
+    
+    .grid-planes-6 {
+        grid-area: grid6;
+        margin-top: 15%;
+        padding-right: 10%;
+    }
+}
