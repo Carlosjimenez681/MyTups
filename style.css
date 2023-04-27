@@ -104,6 +104,11 @@
     color: aliceblue;
 }
 
+.boton-contacto{
+   display: flex;
+   justify-content: center;
+   
+}
 
 
 /* PLANES CSS */
